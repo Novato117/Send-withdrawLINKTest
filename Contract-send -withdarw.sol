@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
-
+//interface 
 interface IERC20 {
   //aprovar
   function approve(address _spender, uint _value) external returns (bool);
@@ -42,3 +42,4 @@ function approve(address spender, uint256 value)  external  returns (bool) {
     return true;
 }*/
 }
+//end contract
